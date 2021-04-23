@@ -1,0 +1,104 @@
+@import "./variables";
+@import "./mobilestyle";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* * {
+  margin: 10px;
+  border: 1px dashed red;
+} */
+
+body {
+  background-color: $background;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  h1 {
+    margin: 0.5em 0.5em 1em 0.5em;
+    font-size: 3em;
+    text-align: center;
+    color: $bkcolor2;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+  }
+  .burger {
+    background-color: black;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0 6px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .flexbox {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 80vh;
+    h3 {
+      color: $titleh2;
+      line-height: 2em;
+      font-size: 1.8em;
+    }
+    h2 {
+      background-color: $background;
+      color: $titleh2;
+      font-size: 1.2em;
+      font-weight: 1em;
+      letter-spacing: 0.2em;
+    }
+    @media (min-width: 801px) {
+      .cont {
+        width: 30%;
+        height: 78vh;
+      }
+    }
+    .first {
+      /* width: 30%;
+      height: 78vh; */
+      .content {
+        padding: 1.5em;
+        height: 95%;
+        background-color: $bkcolor13;
+        p {
+          color: $bkcolor2;
+          font-size: 1.5em;
+          line-height: 2em;
+        }
+      }
+    }
+    .second {
+      /*  width: 30%;
+      height: 78vh; */
+      .content {
+        padding: 1.5em;
+        height: 95%;
+        background-color: $bkcolor2;
+        p {
+          color: $bkcolor13;
+          font-size: 1.5em;
+          line-height: 2em;
+        }
+      }
+    }
+    .third {
+      /* width: 30%;
+      height: 78vh; */
+      .content {
+        height: 95%;
+        background-color: $bkcolor13;
+        .rect {
+          padding-top: 20vh;
+          text-align: center;
+          height: 80%;
+          font-size: 8em;
+          color: white;
+        }
+      }
+    }
+  }
+}

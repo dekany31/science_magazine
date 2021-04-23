@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  .flexbox {
+    margin: 20em 5em 5em 5em;
+    flex-direction: column;
+    .cont {
+      width: 75%;
+    }
+  }
+}

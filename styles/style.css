@@ -1,0 +1,133 @@
+@media (max-width: 800px) {
+  .flexbox {
+    margin: 20em 5em 5em 5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flexbox .cont {
+    width: 75%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* * {
+  margin: 10px;
+  border: 1px dashed red;
+} */
+body {
+  background-color: #22b573;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+body h1 {
+  margin: 0.5em 0.5em 1em 0.5em;
+  font-size: 3em;
+  text-align: center;
+  color: #f2f2f2;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+body .burger {
+  background-color: black;
+  font-size: 4em;
+  border-radius: 50%;
+  padding: 0 6px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+body .flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100vw;
+  height: 80vh;
+}
+
+body .flexbox h3 {
+  color: #d59c42;
+  line-height: 2em;
+  font-size: 1.8em;
+}
+
+body .flexbox h2 {
+  background-color: #22b573;
+  color: #d59c42;
+  font-size: 1.2em;
+  font-weight: 1em;
+  letter-spacing: 0.2em;
+}
+
+@media (min-width: 801px) {
+  body .flexbox .cont {
+    width: 30%;
+    height: 78vh;
+  }
+}
+
+body .flexbox .first {
+  /* width: 30%;
+      height: 78vh; */
+}
+
+body .flexbox .first .content {
+  padding: 1.5em;
+  height: 95%;
+  background-color: #1c1717;
+}
+
+body .flexbox .first .content p {
+  color: #f2f2f2;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+body .flexbox .second {
+  /*  width: 30%;
+      height: 78vh; */
+}
+
+body .flexbox .second .content {
+  padding: 1.5em;
+  height: 95%;
+  background-color: #f2f2f2;
+}
+
+body .flexbox .second .content p {
+  color: #1c1717;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+body .flexbox .third {
+  /* width: 30%;
+      height: 78vh; */
+}
+
+body .flexbox .third .content {
+  height: 95%;
+  background-color: #1c1717;
+}
+
+body .flexbox .third .content .rect {
+  padding-top: 20vh;
+  text-align: center;
+  height: 80%;
+  font-size: 8em;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
